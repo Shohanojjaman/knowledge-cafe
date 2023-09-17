@@ -1,10 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* CSS Link Here */
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500;600;700&display=swap') @tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* CSS Link Here */
+@layer base {
+    @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500;600;700&display=swap');
+}

@@ -5,9 +5,9 @@ const Bookmarks = ({ bookmarks }) => {
     <div className=" bg-[#1111110D] p-7 rounded-lg space-y-4 self-start">
       <h4 className="text-2xl font-bold text-header">Bookmarked Blogs: {bookmarks.length}</h4>
 
-      {
-        bookmarks.map(bookmark => <Bookmark key={bookmark.id} bookmark={bookmark}></Bookmark>)
-      }
+      {bookmarks.map((bookmark, index) => (
+        <Bookmark key={index} bookmark={bookmark}></Bookmark>
+      ))}
     </div>
   );
 };
