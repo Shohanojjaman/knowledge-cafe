@@ -6,6 +6,10 @@ export default {
       fontFamily: {
         exo2: "'Exo 2', sans-serif",
       },
+      colors: {
+        header: '#111111',
+        body: '#11111199',
+      },
     },
   },
   plugins: [],
