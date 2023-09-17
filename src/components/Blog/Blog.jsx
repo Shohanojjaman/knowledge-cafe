@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
-  const { title, cover, postDate, hashtags, author, authorImage, readingTime } = blog;
+  const { id, title, cover, postDate, hashtags, author, authorImage, readingTime } = blog;
 
   return (
     <>
@@ -47,7 +47,7 @@ const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
           ))}
         </div>
         <button
-          onClick={() => handleMarkAsRead(readingTime)}
+          onClick={() => handleMarkAsRead(readingTime, id)}
           className="text-xl font-medium bg-transparent underline text-[#6047EC] border-none cursor-pointer">
           Mark as read
         </button>
