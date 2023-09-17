@@ -1,42 +1,42 @@
 [
   {
-    "ID": "001",
-    "Title": "The Art of Perfecting Your Makeup Routine",
-    "PostDate": "September 16, 2023",
-    "Hashtags": ["#MakeupTips", "#BeautySecrets", "#Skincare"],
-    "Cover": "./images/1.jpg",
-    "Author": "Emma Johnson",
-    "AuthorImage": "./images/girl1.jpg",
-    "ReadingTime": 7
+    "id": "001",
+    "title": "The Art of Perfecting Your Makeup Routine",
+    "postDate": "September 16, 2023",
+    "hashtags": ["#MakeupTips", "#BeautySecrets", "#Skincare"],
+    "cover": "../src/assets/images/1.jpg",
+    "author": "Emma Johnson",
+    "authorImage": "../src/assets/images/girl1.jpg",
+    "readingTime": 7
   },
   {
-    "ID": "002",
-    "Title": "A Beginner's Guide to Contouring and Highlighting",
-    "PostDate": "September 17, 2023",
-    "Hashtags": ["#Contouring", "#Highlighting", "#MakeupBeginners"],
-    "Cover": "./images/2.png",
-    "Author": "John Smith",
-    "AuthorImage": "./images/boy1.png",
-    "ReadingTime": 5
+    "id": "002",
+    "title": "A Beginner's Guide to Contouring and Highlighting",
+    "postDate": "September 17, 2023",
+    "hashtags": ["#Contouring", "#Highlighting", "#MakeupBeginners"],
+    "cover": "../src/assets/images/2.png",
+    "author": "John Smith",
+    "authorImage": "../src/assets/images/boy1.png",
+    "readingTime": 5
   },
   {
-    "ID": "003",
-    "Title": "Skincare Tips for a Radiant Complexion",
-    "PostDate": "September 18, 2023",
-    "Hashtags": ["#SkincareRoutine", "#HealthySkin", "#BeautyTips"],
-    "Cover": "./images/3.png",
-    "Author": "Sarah Miller",
-    "AuthorImage": "./images/girl2.jpg",
-    "ReadingTime": 8
+    "id": "003",
+    "title": "Skincare Tips for a Radiant Complexion",
+    "postDate": "September 18, 2023",
+    "hashtags": ["#SkincareRoutine", "#HealthySkin", "#BeautyTips"],
+    "cover": "../src/assets/images/3.png",
+    "author": "Sarah Miller",
+    "authorImage": "../src/assets/images/girl2.jpg",
+    "readingTime": 8
   },
   {
-    "ID": "004",
-    "Title": "The Science of Anti-Aging Serums",
-    "PostDate": "September 19, 2023",
-    "Hashtags": ["#AntiAging", "#SkincareScience", "#YouthfulSkin"],
-    "Cover": "./images/4.jpg",
-    "Author": "David Clark",
-    "AuthorImage": "./images/boy2.png",
-    "ReadingTime": 6
+    "id": "004",
+    "title": "The Science of Anti-Aging Serums",
+    "postDate": "September 19, 2023",
+    "hashtags": ["#AntiAging", "#SkincareScience", "#YouthfulSkin"],
+    "cover": "../src/assets/images/4.jpg",
+    "author": "David Clark",
+    "authorImage": "../src/assets/images/boy2.png",
+    "readingTime": 6
   }
 ]
